@@ -1,10 +1,10 @@
 body {
   background-color: #f9f7fe;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #11193d;
+  color: #885df1;
 }
 
 .container {
@@ -21,13 +21,13 @@ h1 {
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
-  color: #00010a;
+  color: #272044;
 }
 
 form {
   padding: 30px;
   background-color: white;
-  box-shadow: 0px 20px 60px rgba(11, 4, 109, 0.08);
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   border-radius: 10px;
   display: flex;
   margin-bottom: 30px;
@@ -35,7 +35,7 @@ form {
 
 .instructions {
   padding: 16px;
-  border: 1px solid rgba(10, 23, 43, 0.5);
+  border: 1px solid rgba(39, 33, 66, 0.5);
   width: 80%;
   font-size: 16px;
   border-radius: 50px;
@@ -45,7 +45,7 @@ form {
 
 .submit-button {
   margin-left: 10px;
-  background: #040d1a;
+  background: #885df1;
   color: white;
   border: none;
   width: 150px;
@@ -56,10 +56,10 @@ form {
 
 .poem {
   font-size: 16px;
-  background-color: #02021b;
+  background-color: #fff;
   padding: 20px;
   line-height: 2;
-  border-left: 3px solid #020920;
+  border-left: 3px solid #885df1;
   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
 }
 
