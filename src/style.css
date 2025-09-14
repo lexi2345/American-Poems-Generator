@@ -1,10 +1,10 @@
 body {
   background-color: #f9f7fe;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 a {
-  color: #474f74;
+  color: #11193d;
 }
 
 .container {
@@ -35,7 +35,7 @@ form {
 
 .instructions {
   padding: 16px;
-  border: 1px solid rgba(76, 114, 172, 0.5);
+  border: 1px solid rgba(10, 23, 43, 0.5);
   width: 80%;
   font-size: 16px;
   border-radius: 50px;
@@ -45,7 +45,7 @@ form {
 
 .submit-button {
   margin-left: 10px;
-  background: #4c6386;
+  background: #040d1a;
   color: white;
   border: none;
   width: 150px;
@@ -56,7 +56,7 @@ form {
 
 .poem {
   font-size: 16px;
-  background-color: #fff;
+  background-color: #4b4c74;
   padding: 20px;
   line-height: 2;
   border-left: 3px solid #4d6097;
