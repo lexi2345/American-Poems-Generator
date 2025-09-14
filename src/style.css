@@ -21,13 +21,13 @@ h1 {
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
-  color: #7075a3;
+  color: #00010a;
 }
 
 form {
   padding: 30px;
   background-color: white;
-  box-shadow: 0px 20px 60px rgba(197, 183, 230, 0.08);
+  box-shadow: 0px 20px 60px rgba(11, 4, 109, 0.08);
   border-radius: 10px;
   display: flex;
   margin-bottom: 30px;
@@ -56,10 +56,10 @@ form {
 
 .poem {
   font-size: 16px;
-  background-color: #4b4c74;
+  background-color: #02021b;
   padding: 20px;
   line-height: 2;
-  border-left: 3px solid #4d6097;
+  border-left: 3px solid #020920;
   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
 }
 
