@@ -21,10 +21,8 @@ let poemElement = document.querySelector("#poem");
   poemElement.classList.remove("hidden");
   poemElement.innerHTML = `<div class="generating">⏳ Generating a American poem about ${instructionsInput.value}</div>`;
   
-  console.log("Generating a poem")
-  console,log('prompt: $(prompt)');
-  console.log('context: $(context)');
-  
+
+
   axios.get(apiURL).then(displayPoem);
 }
 
