@@ -1,33 +1,33 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css">
     <title>American-Poems-Generator</title>
 </head>
 <body>
   <div class="container">
-    <h1> Welcome to the American Poem Generator</h1>
+    <h1> Welcome to the Poem Generator</h1>
  </header>
 
     <main>
-      <form>
+      <div class="form-container">
+          <form id="poem-generator-form">
         <input
           type="text"
-          placeholder="Enter the topic of the American Poem"
+          placeholder="Enter the topic of the Poem"
           autofocus
           required
           autocomplete="off"
-          class="Instructions"
+         class="instructions"
+              id="user-instructions"
         />
         <input type="submit" class="submit-button" />
       </form>
-      <div class="Poem">
-       The line-storm clouds fly tattered and swift, 
-        <br />
-       The road is forlorn all day, 
-      </div>
+    <div class="hint">i.e: Flower,New York or Sunests
+    </div>
     </main>
 
    <footer>
