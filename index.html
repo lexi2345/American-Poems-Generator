@@ -3,24 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
-
     <link rel="stylesheet" href="src/style.css">
     <title>American-Poems-Generator</title>
-
 </head>
 <body>
   <div class="container">
-    <header class="header">
-      <div>
-    <h1> Welcome to the Poem Generator
-    </h1>
-      </div>
+    <h1> Welcome to the American Poem Generator</h1>
+ </header>
 
     <main>
-       <div class="form-container">
       <form id="poem-generator-form">
         <input
           type="text"
@@ -30,12 +23,11 @@
           autocomplete="off"
           class="Instructions"
              id="user-instructions"
-        /></header>
+        />
       <input type="submit" class="submit-button" />
         </form>
          <div class="hint">i.e: Flower, New York or Music</div>
-        </div>
-        <div class="poem hidden" id="poem"></div>
+        <div class="poem" id="poem"></div>
     </main>
 
    <footer>
