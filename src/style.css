@@ -1,10 +1,10 @@
 body {
   background-color: #f9f7fe;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #1e568b;
+  color: #885df1;
 }
 
 .container {
@@ -21,7 +21,7 @@ h1 {
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
-  color: #1d0f57;
+  color: #272044;
 }
 
 form {
