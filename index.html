@@ -17,25 +17,25 @@
     </h1>
      </div>
  </header>
-
-    <main>
-      
-      <form id="poem-generator-form">
+      <div class="form-container">
+      <form id="poem-generator">
         <input
           type="text"
-          placeholder="Enter the topic of the American Poem"
+          id="Instructions"
+          autofocus class="Instructions"
+          placeholder="Enter the topic of the  Poem"
           autofocus
           required
           autocomplete="off"
           class="Instructions"
              id="user-instructions"
         />
-      <input type="submit" class="submit-button" />
+      <input type="submit" value="Generate Poems" class=" btn" id="submit-button" />
         </form>
          <div class="hint">i.e: Flower, New York or Music</div>
         </div>
-        <div class="poem hidden" id="poem"></div>
-    </main>
+        <div class="poem" id="poem"></div>
+      </div>
 
    <footer>
       This AI project was coded by
