@@ -1,41 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
     <title>American-Poems-Generator</title>
 </head>
 <body>
-
   <div class="container">
-    <h1> The Poem Generator
-    </h1>
-     </div>
+    <h1> Welcome to the American Poem Generator</h1>
  </header>
-      <div class="form-container">
-      <form id="poem-generator">
+
+    <main>
+      <form>
         <input
           type="text"
-          id="Instructions"
-          autofocus class="Instructions"
-          placeholder="Enter the topic of the Poem"
+          placeholder="Enter the topic of the American Poem"
           autofocus
           required
           autocomplete="off"
           class="Instructions"
-             id="user-instructions"
         />
-      <input type="submit" value="Generate Poems" class=" btn" id="submit-button" />
-        </form>
-         <div class="hint">i.e: Flower, New York or Music</div>
-        </div>
-        <div class="poem" id="poem"></div>
+        <input type="submit" class="submit-button" />
+      </form>
+      <div class="Poem">
+       The line-storm clouds fly tattered and swift, 
+        <br />
+       The road is forlorn all day, 
       </div>
+    </main>
 
    <footer>
       This AI project was coded by
@@ -56,5 +49,4 @@
 
     <script src="src/script.js"></script>
 </body>
-
 </html>
